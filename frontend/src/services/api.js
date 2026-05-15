@@ -1,6 +1,6 @@
 import { getAuthToken } from './auth';
 
-const API_GATEWAY = 'http://localhost:8087';
+const API_GATEWAY = 'http://localhost:8080';
 
 export const fetchApi = async (endpoint, options = {}) => {
   const token = getAuthToken();
